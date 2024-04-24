@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+body.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  background-color: #201b2c;
+}
+
+body.fade-in.loaded {
+  opacity: 1;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background: #8DECB4;
+}
+
+body h2 {
+  color: rgb(255, 255, 255);
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.spnQtd {
+  text-align: end;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  width: 100%;
+  text-align: start;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #208349;
+  color: white;
+}
+
+.finish {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.finish button {
+  text-align: center;
+}
+/* Para a página de boas-vindas (style.css) */
+.welcome-message {
+    opacity: 1;
+    transition: opacity 1s ease-in-out; /* Transição de opacidade durante 1 segundo */
+}
+  
+.welcome-message.hidden {
+    opacity: 0;
+}
+.main {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Transição de opacidade durante 1 segundo */
+  }
+  
+  .main.show {
+    opacity: 1;
+  }
+  
+  

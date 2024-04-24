@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 5vh;
+    height: 100vw;
+    box-sizing: border-box;
+    background-color: #201b2c;
+  }
+  .welcome-message{
+    background: #2f2841;
+    padding: 5vh;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px black;
+  }
+  .welcome-message p {
+    color: white;
+  }
+  .welcome-message {
+    text-align: center;
+    color: #00ff88;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+  
+   .welcome-message {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  } 
