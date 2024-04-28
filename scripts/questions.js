@@ -18,12 +18,38 @@ export default [
       ],
     },
     {
-      question: "Qual a densidade da glandula?",
+      question: "Qual a densidade do nodulo?",
       answers: [
-        { option: "Extremamente baixa"},
-        { option: "Baixa"},
-        { option: "Moderada"},
-        { option: "Alta"},
+        { option: "Low density"},
+        { option: "Equal density"},
+        { option: "high density"},
+      ],
+    },
+    {
+      question: "Qual o tamanho da calcificacao?",
+      answers: [
+        { option: "Maior que 0.5 mm"},
+        { option: "Menor que 0.5 mm"},
+      ],
+    },
+    {
+      question: "Qual a forma da calcificacao?",
+      answers: [
+        { option: "Vascular"},
+        { option: "Cutanea"},
+        { option: "Pipoca"},
+        { option: "Centro claro"},
+        { option: "Fio de sutura"},
+      ],
+    },
+    {
+      question: "Qual a distribuicao da calcificacao?",
+      answers: [
+        { option: "Agrupadas em segmento regional"},
+        { option: "Agrupadas em trajeto ductal"},
+        { option: "Arredondadas"},
+        { option: "Bilateral"},
+        { option: "Simetricos"},
       ],
     },
   ];
